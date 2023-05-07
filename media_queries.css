@@ -1,0 +1,121 @@
+@media screen and (max-width: 479px) {
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .lnav {
+        position: absolute;
+        background-color: aliceblue;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .lnav.active{
+        left: 0;
+    }
+
+    .lnav ul{
+        flex-direction: column;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .headimg {
+        width: 350px;
+    }
+
+    .lmain h1 {
+        font-size: 1.6rem;
+    }
+
+    .myname {
+        font-size: 4rem;
+        color: rgb(41, 124, 231);
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(41, 124, 231);
+        color: white !important;
+        border-radius: 5px;
+        padding: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .edu {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .big-image img {
+        width: 250px;
+    }
+
+    .projects-desc {
+        margin-top: 50px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .projects-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        padding: 2px;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        height: 200px;
+        background-size: cover;
+        transition: all 0.25s;
+    }
+
+    .card-1:hover {
+        scale: 1;
+        z-index: 2;
+    }
+
+    .card-2:hover {
+        scale: 1;
+        z-index: 2;
+    }
+
+    .card-3:hover {
+        scale: 1;
+        z-index: 2;
+    }
+
+    .card-4:hover {
+        scale: 1;
+        z-index: 2;
+    }
+
+    .card-5:hover {
+        scale: 1;
+        z-index: 2;
+    }
+
+    .foot{
+        gap: 30%;
+        row-gap: 30px;
+    }
+}

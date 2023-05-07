@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    gap: 100px;
+}
+
+.main-nav{
+    position: relative;
+}
+
+.rnav h3{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.rnav h3:hover{
+    transform: translateX(15px);
+}
+
+.lnav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.lnav ul a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.lnav ul a:hover{
+    transform: translateX(-10px);
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.hire{
+    background-color: black;
+    color: white !important;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.hire:hover{
+    background-color: rgb(41, 124, 231);
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn{
+    background-color: black;
+    color: white !important;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(41, 124, 231);
+    color: rgb(255, 255, 255) !important;
+}
+
+.navigation{
+    margin-block: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lmain h1{
+    font-size: 2rem;
+}
+
+.myname{
+    font-size: 6rem;
+    color: rgb(41, 124, 231);
+}
+
+.name{
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.name:hover{
+    transform: translateX(25px);
+}
+
+.lmain p{
+    font-size: 1.2rem;
+    /* margin-left: 20px; */
+    color: rgb(110, 111, 112);
+}
+
+.headimg{
+    transition: 0.2s ease-in-out;
+    width: 600px;
+}
+
+.headimg:hover{
+    transform: translateY(20px);
+}
+
+.cv{
+    margin-top: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.cv:hover{
+    transform: translateX(15px);
+}
+
+.about{
+    cursor: pointer;
+    display: inline;
+}
+
+.skill-section{
+    margin-bottom: 40px;
+    padding: 80px 20px 0;
+}
+
+.skill-header{
+    text-align: center;
+}
+
+.skill-header h2{
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.skill-area{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.skill-card{
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.skill-card img{
+    width: 60px;
+    transition: 0.2s ease-in-out;
+}
+
+.skill-card img:hover{
+    transform: translateY(-15px);
+}
+
+.skill-card h3{
+    color: rgb(128, 128, 128);
+}
+
+.big-image img{
+    width: 450px;
+}
+
+.edu{
+    justify-content: space-around;
+}
+
+.skill-header{
+    margin-top: 40px; 
+    font-size: 1.5rem;
+}
+
+.description hr{
+    margin-block: 50px;
+}
+
+.projects-desc {
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.projects-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 2px;
+    text-align: center;
+    width: 31%;
+    position: relative;
+    height: 200px;
+    background: black;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("Signup.png");
+    background-size: cover;
+    transition: all 0.25s;
+}
+
+.projects-card h3 {
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #672b2b;
+    
+}
+
+.card-1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("4.png");
+    background-size: cover;
+}
+
+.card-2 {
+
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("6.png");
+    background-size: cover;
+}
+
+.card-3 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("7.png");
+    background-size: cover;
+}
+
+.card-4 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("3.png");
+    background-size: cover;
+}
+
+.card-5 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("2.png");
+    background-size: cover;
+}
+
+.card-1:hover {
+    transform: translateX(90px);
+    scale: 2;
+    z-index: 2;
+}
+
+.card-2:hover {
+    scale: 2;
+    z-index: 2;
+}
+
+.card-3:hover {
+    transform: translateX(-90px);
+    scale: 2;
+    z-index: 2;
+}
+
+.card-4:hover {
+    transform: translateX(90px);
+    transform: translateY(-30px);
+    scale: 2;
+    z-index: 2;
+}
+
+.card-5:hover {
+    transform: translateX(90px);
+    transform: translateY(-30px);
+    scale: 2;
+    z-index: 2;
+}
+
+.sub-footer{
+    background-color: rgb(181, 221, 255);
+    padding-block: 20px;
+}
+
+.sub-container{
+    text-align: center;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+}
+
+.foot{
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.hover-links{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.foot a{
+    transition: 0.2s ease-in-out;
+}
+
+.foot a:nth-child(1):hover {
+    color: #053ab7;
+    transform: translateY(-8px);
+}
+
+.foot a:nth-child(2):hover {
+    color: rgb(238, 78, 131);
+    transform: translateY(-8px);
+}
+
+.foot a:nth-child(3):hover {
+    color: #1e857f;
+    transform: translateY(-8px);
+}
+
+.foot a:nth-child(4):hover {
+    transform: translateY(-8px);
+}
+
+.foot a:nth-child(5):hover {
+    transform: translateY(-8px);
+}
+
+.foot a:nth-child(6):hover {
+    color: #067aac;
+    transform: translateY(-8px);
+}
