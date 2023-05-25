@@ -262,6 +262,11 @@ nav{
     background-size: cover;
 }
 
+.card-6 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url("10.png");
+    background-size: cover;
+}
+
 .card-1:hover {
     transform: translateX(90px);
     scale: 2;
@@ -274,7 +279,8 @@ nav{
 }
 
 .card-3:hover {
-    transform: translateX(-90px);
+    transform: translateX(60px);
+    transform: translateY(-50px);
     scale: 2;
     z-index: 2;
 }
@@ -289,6 +295,13 @@ nav{
 .card-5:hover {
     transform: translateX(90px);
     transform: translateY(-30px);
+    scale: 2;
+    z-index: 2;
+}
+
+.card-6:hover {
+    transform: translateX(60px);
+    transform: translateY(-20px);
     scale: 2;
     z-index: 2;
 }
